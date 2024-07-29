@@ -1,0 +1,44 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Ignore Django settings that might contain sensitive information
+.env
+*.env
+
+# Ignore local database files
+*.sqlite3
+
+# Ignore media files
+media/
+
+# Ignore static files (if they are collected during the build)
+static/
+
+# Ignore test files and coverage reports
+tests/
+.coverage
+coverage/
+htmlcov/
+
+# Ignore IDE and editor config files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Docker-related files that shouldn't be in the build context
+docker-compose.yml
+Dockerfile
